@@ -3,3 +3,4 @@
 dcdiag
 Get-Service adws,kdc,netlogon,dns
 Get-smbshare
+Hmm, ok now what?
