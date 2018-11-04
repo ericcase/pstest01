@@ -21,6 +21,8 @@ Write-Host -ForegroundColor yellow "Done creating OUs"
 Write-Host -ForegroundColor yellow ""
 
 Write-Host -ForegroundColor yellow "Creating groups based on department"
+
+We are alwys testing, please stand by again
 New-ADGroup -GroupCategory Security -GroupScope Global -Name President -Path "OU=ST_Groups,DC=AD,DC=sparky-tech,DC=com"
 New-ADGroup -GroupCategory Security -GroupScope Global -Name Finance -Path "OU=ST_Groups,DC=AD,DC=sparky-tech,DC=com"
 New-ADGroup -GroupCategory Security -GroupScope Global -Name HR -Path "OU=ST_Groups,DC=AD,DC=sparky-tech,DC=com"
