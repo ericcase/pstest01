@@ -12,4 +12,5 @@ dcdiag
 Get-Service adws,kdc,netlogon,dns
 Get-smbshare
 
+
 Write-Host -ForegroundColor yellow "Check for errors."
